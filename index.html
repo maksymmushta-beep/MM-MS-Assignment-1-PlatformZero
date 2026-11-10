@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platform Zero | Game Design Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #14151b;
+      color: #eeeeee;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-bottom: 35px;
+    }
+
+    a {
+      color: #a5cfff;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #cccccc;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 35px;
+    }
+
+    .subtitle {
+      color: #aaaaaa;
+    }
+
+    .cover {
+      background: linear-gradient(135deg, #242632, #100e14);
+      padding: 60px 20px;
+      text-align: center;
+      border: 1px solid #49404a;
+      border-radius: 8px;
+      margin-top: 25px;
+    }
+
+    .cover h2 {
+      font-size: 48px;
+      margin: 0;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    .cover span {
+      color: #f05c5c;
+    }
+
+    .timer {
+      font-size: 54px;
+      color: #f05c5c;
+      font-family: monospace;
+      margin: 20px 0;
+    }
+
+    .box {
+      background: #20212a;
+      padding: 20px;
+      border-radius: 7px;
+      margin-top: 15px;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .links .box {
+      margin-top: 0;
+    }
+
+    .links h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    footer {
+      color: #aaaaaa;
+      font-size: 14px;
+      margin-top: 50px;
+      padding-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .links {
+        grid-template-columns: 1fr;
+      }
+
+      .cover h2 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#team">Team</a>
+      <a href="#portfolio">Portfolio</a>
+    </nav>
+
+    <header>
+      <h1>Platform Zero</h1>
+      <p class="subtitle">
+        Introduction to Game Design | 2026-2027
+      </p>
+
+      <div class="cover">
+        <h2>PLATFORM <span>ZERO</span></h2>
+        <div class="timer">10:00</div>
+        <p>Ten minutes. One station. Every choice matters.</p>
+        <p>A PS1-inspired interactive mystery game</p>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About the Game</h2>
+
+      <div class="box">
+        <p>
+          Platform Zero is an interactive mystery game.
+          The player wakes up alone in an underground
+          station with only ten minutes left before
+          the station shuts down.
+        </p>
+
+        <p>
+          Every decision takes time. The player must
+          explore the station, find clues and decide
+          who to trust.
+        </p>
+
+        <p>
+          The game will have different endings depending
+          on the player's choices. We are planning a
+          simple PS1-inspired visual style.
+        </p>
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>Our Team</h2>
+
+      <div class="box">
+        <p><strong>Maksym Mushta</strong></p>
+        <p><strong>Maksym Stolyarov</strong></p>
+        <p>South East Technological University</p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Project Portfolio</h2>
+
+      <div class="links">
+
+        <div class="box">
+          <h3>Trello Board</h3>
+          <p>Brainstorming and project planning.</p>
+          <a href="https://trello.com/b/505IHT9t/portfoliommms-assignment1"
+             target="_blank">
+            View Trello Board
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Game Pitch</h3>
+          <p>Our game pitch presentation.</p>
+          <a href="Platform_Zero_Presentation.pdf">
+            View Presentation
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>GitHub Repository</h3>
+          <p>Our project files and development.</p>
+          <a href="https://github.com/maksymmushta-beep/MM-MS-Assignment-1-PlatformZero">
+            View Repository
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Step 1 Submission</h3>
+          <p>Our project plan and assignment document.</p>
+          <a href="Platform_Zero_Submission.docx">
+            View Document
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Our Plan</h2>
+
+      <div class="box">
+        <p>
+          First, we will plan the story and player
+          choices. Then we will create the countdown
+          system and a simple prototype.
+        </p>
+
+        <p>
+          After that, we will work on the visual style,
+          test the game and make improvements.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      Platform Zero | Maksym Mushta &amp; Maksym Stolyarov
+    </footer>
+
+  </div>
+</body>
+</html>
